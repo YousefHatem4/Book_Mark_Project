@@ -1,0 +1,143 @@
+html {
+    direction: ltr;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    padding-top: 70px;
+}
+
+:root {
+    --font-family-pac:"Pacifico", cursive;
+    --font-family-rig: "Righteous", sans-serif;
+    --font-family-pt: "PT Sans Caption",sans-serif;
+}
+/* global classes */
+
+.font-family-pac{
+    font-family: var(--font-family-pac);
+}
+.font-family-rig{
+    font-family: var(--font-family-rig);
+}
+.font-family-pt{
+    font-family: var(--font-family-pt);
+}
+
+::selection{
+    background-color: #fec260;
+}
+
+.bg-section{
+    background-color: #F7ECDE;
+}
+.title h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    color: rgb(53, 46, 40);
+}
+.title h1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: 10px;
+  background-color: #fec260;
+  z-index: -1;
+  transition: height 0.4s;
+  -webkit-transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  -ms-transition: height 0.4s;
+  -o-transition: height 0.4s;
+}
+.title h1:hover::after{
+height: 55%;
+}
+.line-dotted{
+            border-bottom: 2px dotted black;
+            border-color: #352e28;
+}
+.book-title h2{
+    font-size: 25px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    color: transparent;
+    background-clip: text;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem #fec26055;
+    border-color: #d99c39;
+}
+
+.btn-2{
+    background-color: #d1512d ;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.btn-2:hover {
+    background-color: #bb4120 ;
+}
+
+table{
+    box-shadow: inset 0 0 0 9999px transparent;
+}
+table .table-style{
+border-bottom-width: 1px;
+border-color: #EBEDF0;
+}
+
+ .btn-visit{
+    background-color: #9eb23b;
+    transition: all 0.3s;
+    color: white;
+ }
+  .btn-visit:hover{
+    background-color: #8a9e23;
+  }
+  .btn-delete{
+    background-color: #eb1d36;
+        transition: all 0.3s;
+        color: white;
+  }
+  .btn-delete:hover{
+    background-color: #d30820;
+  }
+  .circle-box-1{
+    background-color: #F15F5D;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+     
+  }
+  .circle-box-2 {
+      background-color: #febe2e;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+     
+  }
+  .circle-box-3 {
+      background-color: #4DB748;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+     
+  }
