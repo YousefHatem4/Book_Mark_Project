@@ -1,2 +1,2 @@
-# Front_End_Development_Projects
-This repository showcases my front-end development projects focused on creating engaging and responsive web interfaces. Each project reflects my skills in web technologies, UI/UX design, and modern development practices, emphasizing user-friendly experiences and efficient code.
+# Book_Mark_Project
+Bookmark is a web-based application that lets users manage their bookmarks through basic CRUD operations—Create, Read, Update, and Delete. Built using HTML, CSS, JavaScript, and styled with Bootstrap, the project provides a responsive interface for easy bookmark management. Users can add, edit, and delete bookmarks via an intuitive and modern interface. The project is lightweight and straightforward, designed to demonstrate basic CRUD functionality while leveraging Bootstrap for clean and responsive UI design.
